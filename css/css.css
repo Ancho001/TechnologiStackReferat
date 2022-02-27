@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(180, 176, 176);
+}
+div {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+}
+a:hover {
+    color: rgba(142, 127, 209, 0.795);
+    cursor: pointer;
+}
+a:visited {
+    color: rgb(226, 126, 126);
+}
+a:active {
+    color: rgb(241, 70, 213);
+}
+.content {
+  margin: 1%;
+  border: 3px solid #000; 
+   overflow: auto;
+}
+.niy {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2vh;
+    font-weight: normal;
+    padding: 10px;
+}
+.title {
+    margin-top: 30vh;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+.perfomance {
+    margin-top: 15vh;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: right;
+    margin-right: 30px;
+    padding: 10px;
+}
+.town {
+    margin-top: 10vh;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+ol.cc {    
+    list-style: none;
+    counter-reset: li;
+ }
+ li.c:before {
+   counter-increment: li;
+   content: counters(li, ".") ". ";
+ }
+.title {
+    margin-bottom: 5%;
+}
+.titli__glav {
+    text-align: center;
+}
+.title__poboch {
+    text-align: left;
+    margin-left: 5%;
+    color: #000;
+}
+
+.allText {
+    font-size: 22px;
+    margin-left: 5%;
+    margin-right: 3%;
+    text-indent: 20px;
+}
+
+.foreword {
+    margin-bottom: 5%;
+}
+.stek {
+    margin-bottom: 5%;
+}
+.stekVidWirth {
+    min-width: 200px;
+}
+.twoUnion {
+    display: flex;
+}
+.complicated {
+    margin-left: 5%;
+}
+/* .complicated__titel {
+
+} */
+/* ul.complicated_n li.com::before {
+    color:#000;
+} */
+/* ul li:before {
+    content: U+002D;
+    color: #000;
+    
+} */
+.indent {
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+.languages {
+    margin-bottom: 5%; 
+}
+
+.clientsPart {
+    margin-bottom: 5%; 
+}
+.lanHtml {
+    margin-bottom: 5%; 
+}
+.lanCss {
+    margin-bottom: 5%;
+}
+
+.lanJS {
+    margin-bottom: 5%;
+}
+
+.lanJSFrems {
+    margin-bottom: 5%;
+}
+.serverPart {
+    margin-bottom: 5%;
+}
+.subd {
+    margin-bottom: 5%;
+}
+.lanmtSQL {
+    margin-bottom: 5%;
+}
+.lanMaria {
+    margin-bottom: 5%;
+}
+.lanMongo {
+    margin-bottom: 5%;
+}
+.lanWeb {
+    margin-bottom: 5%;
+}
+.lanPHP {
+    margin-bottom: 5%;
+}
+.lanRuby {
+    margin-bottom: 5%;
+}
+.lanPyton {
+    margin-bottom: 5%;
+}
+.jsAngular {
+    margin-bottom: 5%;
+}
+.jsReact {
+    margin-bottom: 5%;
+}
+.jsVue {
+    margin-bottom: 5%;
+}
+.jsBootstrap {
+    margin-bottom: 5%;
+}
+.examplePicters {
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.picter {   
+    text-align: center;
+}
+
+.block_color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50 px;
+    border: 3px solid #000;
+}
+.bacFriym {
+    margin-bottom: 5%;
+}
+.fraimDjango {
+    margin-bottom: 5%;
+}
+.fraimLaravel {
+    margin-bottom: 5%;
+}
+.fraimExpress {
+    margin-bottom: 5%;
+}
+
+.output {
+    margin-bottom: 5%;
+}
